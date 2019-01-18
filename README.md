@@ -6,21 +6,21 @@ Project e is a simple program written in c++. It can be used for code obfuscatio
 IMPORTANT: For now, your code must not contain lines starting with "#define" or "typedef", otherwise the program will not work.
 Maybe I will fix this in the future.
 ------------------------------------
-Now the most important question:
-How to use project e?
-First, download the code and compile it. Then run the compiled code with the following arguments:
-->The first argument is the name of c++ code you want to be obfuscated.
-->The second argument is the name of file you want to save the obfuscated code.
-->The third argument is the set of latin characters you want to use in the process of obfuscation.
-Example:
+Now the most important question:  
+How to use project e?  
+First, download the code and compile it. Then run the compiled code with the following arguments:  
+->The first argument is the name of c++ code you want to be obfuscated.  
+->The second argument is the name of file you want to save the obfuscated code.  
+->The third argument is the set of latin characters you want to use in the process of obfuscation.  
+Example:  
 
-Command ./e xd.cpp xd2.cpp ea
-Used on following code saved in file xd.cpp:
+Command ./e xd.cpp xd2.cpp ea  
+Used on following code saved in file xd.cpp:  
 
-#include<bits/stdc++.h>
-using namespace std;
+#include<bits/stdc++.h>  
+using namespace std;  
 
-int main(){
+int main(){  
 	
 	cout<<"THIS IS A TEST!";
 	cout<<"HAVE FUN WITH PROJECT E!\n";
@@ -44,7 +44,7 @@ Will produce the following code:
 e a ee ae ea aa eee aee eae aae   
 
 
-You can check that this code works.
+You can check that this code works.  
 
 
-~BrutBurger
+~BrutBurger  
