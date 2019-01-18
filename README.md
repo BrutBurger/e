@@ -30,18 +30,18 @@ int main(){
 
 Will produce the following code:
 
-#include<bits/stdc++.h>
-#define eae 0;
-#define eee cout<<"HAVE FUN WITH PROJECT E!\n";
-#define aa cout<<"THIS IS A TEST!";
-#define ae int
-#define ea main(){
-#define a namespace
-#define aee return
-#define ee std;
-#define e using
-#define aae }
-e a ee ae ea aa eee aee eae aae 
+#include<bits/stdc++.h>  
+#define eae 0;  
+#define eee cout<<"HAVE FUN WITH PROJECT E!\n";  
+#define aa cout<<"THIS IS A TEST!";  
+#define ae int  
+#define ea main(){  
+#define a namespace  
+#define aee return  
+#define ee std;  
+#define e using  
+#define aae }  
+e a ee ae ea aa eee aee eae aae   
 
 
 You can check that this code works.
