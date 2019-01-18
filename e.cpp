@@ -3,8 +3,6 @@
 #include<map> 
 #include<vector>
  
-#include<bits/stdc++.h> 
- 
 using namespace std;
 
 map<string,string>map1; 
