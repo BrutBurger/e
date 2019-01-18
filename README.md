@@ -2,6 +2,7 @@
 It's a simple spell, but quite unbreakable.
 -------------------------------------------
 Project e is a simple program written in c++. It can be used for code obfuscation or just for fun.
+
 IMPORTANT: For now, your code must not contain lines starting with "#define" or "typedef", otherwise the program will not work.
 Maybe I will fix this in the future.
 ------------------------------------
