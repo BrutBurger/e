@@ -44,7 +44,7 @@ e a ee ae ea aa eee aee eae aae
 
 
 You can check that this code works.  
-As you may see, every define is created by breaking the code between every two white characters (except the code placed in the pair of ' or "). 
+As you may see, every define is created by breaking the code between every two white characters (except the code placed in the pair of quotation marks). 
 
 
 But, be careful while choosing the set of characters. If your original code contained command named the same as one of produced defines, the output code will not compile.    
