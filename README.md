@@ -14,21 +14,20 @@ First, download the code and compile it. Then run the compiled code with the fol
 ->The third argument is the set of latin characters you want be used in the process of obfuscation.  
 Example:  
 
-Command ./e xd.cpp xd2.cpp ea  
-Used on following code saved in file xd.cpp:  
+Command    ./e in.cpp out.cpp ea    used on following code saved in file xd.cpp:  
 
 #include<bits/stdc++.h>  
 using namespace std;  
 
 int main(){  
 	
-	cout<<"THIS IS A TEST!";
-	cout<<"HAVE FUN WITH PROJECT E!\n";
+	cout<<"THIS IS A TEST!";  
+	cout<<"HAVE FUN WITH PROJECT E!\n";  
 	
-	return 0;
+	return 0;  
 }
 
-Will produce the following code:
+Will produce the following code:  
 
 #include<bits/stdc++.h>  
 #define eae 0;  
@@ -45,6 +44,17 @@ e a ee ae ea aa eee aee eae aae
 
 
 You can check that this code works.  
+As you may see, every define is created by breaking the code between every two white characters (except the code placed in the pair of ' or "). 
 
 
-~BrutBurger  
+But, be careful while choosing the set of characters. If your original code contained command named the same as one of produced defines, the output code will not compile.    
+Example:  
+  
+The original code contains following line: "int ab".  
+If both the letters 'a' and 'b' would be chosen as the members of characters set, one of the very first defines will look like this: #define ab <any command in c++>. In this case, the output code will fail to compile.  
+
+To avoid similar situations, I recommend the following solution:  
+Look in the original code for short commands (especially short variable names and commands like for,if etc). While choosing the characters set do not use all letters that any short command contains. (example: if the original code contains the 'for' command, you should not choose all three letters 'f','o' and 'r' for the characters set).    
+
+
+~BrutBurger    
