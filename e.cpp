@@ -38,6 +38,10 @@ bool e(const char *input_file, const char *output_file, const char *cset){
     FILE *out = fopen(output_file, "wb");
  	int ad=0,as=0;
  	
+ 	string comment = "//Made using github.com/BrutBurger/e";
+ 	for(int i=0; i<comment.size(); i++) fputc(comment[i],out);
+ 	fputc('\n',out);
+ 	
  	for(int i=0; i<strlen(cset); i++) if((cset[i]<'a'||cset[i]>'z')&&(cset[i]>'Z'||cset[i]<'A')) return false;
  	for(int i=0; i<strlen(cset); i++) kt[cset[i]]=i;
  
