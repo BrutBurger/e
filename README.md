@@ -14,7 +14,7 @@ First, download the code and compile it. Then run the compiled code with the fol
 ->The third argument is the set of latin characters you want be used in the process of obfuscation.  
 Example:  
 
-Command `./e in.cpp out.cpp ea` used on following code saved in file `xd.cpp:`
+Command `./e in.cpp out.cpp ea` used on following code saved in file `xd.cpp`:
 
 ```cpp
 #include<bits/stdc++.h>  
