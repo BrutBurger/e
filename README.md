@@ -14,7 +14,7 @@ First, download the code and compile it. Then run the compiled code with the fol
 ->The third argument is the set of latin characters you want be used in the process of obfuscation.  
 Example:  
 
-Command    `./e in.cpp out.cpp ea`    used on following code saved in file `xd.cpp:`
+Command `./e in.cpp out.cpp ea` used on following code saved in file `xd.cpp:`
 
 ```cpp
 #include<bits/stdc++.h>  
@@ -53,7 +53,7 @@ As you may see, every define is created by breaking the code between every two w
 But, be careful while choosing the set of characters. If your original code contained command named the same as one of produced defines, the output code will not compile.    
 Example:  
   
-The original code contains following line: `"int ab".`  
+The original code contains following line: `int ab`. 
 If both the letters 'a' and 'b' would be chosen as the members of characters set, one of the very first defines will look like this: `#define ab <any command in c++>`. In this case, the output code will fail to compile.  
 
 To avoid similar situations, I recommend the following solution:  
