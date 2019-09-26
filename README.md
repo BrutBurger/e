@@ -16,6 +16,7 @@ Example:
 
 Command    ./e in.cpp out.cpp ea    used on following code saved in file xd.cpp:  
 
+'''
 #include<bits/stdc++.h>  
 using namespace std;  
 
@@ -26,9 +27,11 @@ int main(){
 	
 	return 0;  
 }
+'''
 
 Will produce the following code:  
 
+'''
 #include<bits/stdc++.h>  
 #define eae 0;  
 #define eee cout<<"HAVE FUN WITH PROJECT E!\n";  
@@ -41,7 +44,7 @@ Will produce the following code:
 #define e using  
 #define aae }  
 e a ee ae ea aa eee aee eae aae   
-
+'''
 
 You can check that this code works.  
 As you may see, every define is created by breaking the code between every two white characters (except the code placed in the pair of quotation marks). 
